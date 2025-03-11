@@ -5,6 +5,12 @@ s+=t
 return s
 
 data=1,2,3
-som=sum(data)
+if data:
 print('la somme est:' som) 
 
+
+print('le min est:' min)
+print('le max est:' max)
+else:
+print('dossier vide')
+ projeth2
